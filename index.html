@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <button class="tasks-all">All Tasks</button>
+            <button class="tasks-completed">Completed Tasks</button>
+            <h3 class="name-user">You: Guest</h3>
+            <h3 class="role-user">Your role: User</h3>
+            <button class="log-in">Log in</button>
+            <button class="log-us">Log us</button>
+            <button class="log-out none">Log out</button>
+        </nav>
+        <div class="modal_window none" id="login">
+            <div class="auth">
+                <button class="close">
+                    <img src="/style/close.png" alt="X">
+                </button>
+                <img src="/style/icon.png" alt="LOGIN" class="auth-icon">
+                <input id="login_email" placeholder="your email">
+                <input id="login_password" placeholder="your password">
+                <button class="login_button">LOGIN</button>
+            </div>
+        </div>
+        <div class="modal_window none" id="registration">
+            <div class="auth">
+                <button class="close">
+                    <img src="/style/close.png" alt="X">
+                </button>
+                <img src="/style/icon.png" alt="LOGIN" class="auth-icon">
+                <input id="registration_email" placeholder="your email">
+                <input id="registration_password" placeholder="your password">
+                <button class="registration_button">Register</button>
+            </div>
+        </div>
+        <section class="main_section">
+            <img src="style/map.png" class="map">
+            <img src="/style/Earth.png" class="earth">
+            <h1 class="name_website">OSINT PRACTICE</h1>
+            <p class="main-text">The best platform for solving practical problems in OSINT.</p>
+         </section>
+         <footer class="footer">
+            <button class="article-1">article-1</button>
+            <button class="article-2">acrticle-2</button>
+            <button class="about-us">About Us</button>
+            <button class="contacts">Contacts</button>
+         </footer>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -10,7 +10,7 @@
     <main>
         <nav>
             <button class="tasks-all">All Tasks</button>
-            <button class="tasks-completed">Completed Tasks</button>
+            <button class="all-users none">All Users</button>
             <h3 class="name-user">You: Guest</h3>
             <h3 class="role-user">Your role: User</h3>
             <button class="log-in">Log in</button>
@@ -45,6 +45,55 @@
             <h1 class="name_website">OSINT PRACTICE</h1>
             <p class="main-text">The best platform for solving practical problems in OSINT.</p>
          </section>
+         <section class="for-tasks none">
+            <div class="filter-tasks">
+                <h1>OSINT TASKS</h1>
+                <label>
+                  Type Tasks
+                  <select class="type-tasks">
+                    <option>ALL</option>
+                    <option>TYPE A</option>
+                    <option>TYPE B</option>
+                  </select>
+                </label>
+                <label>
+                  Level Tasks
+                  <select class="level-tasks">
+                    <option>ALL</option>
+                    <option>EASY</option>
+                    <option>MEDIUM</option>
+                    <option>HARD</option>
+                  </select>
+                </label>
+              </div>
+              <div class="container-tasks"></div>
+            </section>
+            <section class="for-create-task none">
+                <h1>Create new Task</h1>
+                <input placeholder="Enter task name">
+                <label>
+                    Enter Type Tasks
+                    <select>
+                      <option>ALL</option>
+                      <option>TYPE A</option>
+                      <option>TYPE B</option>
+                    </select>
+                  </label>
+                  <label>
+                    Enter Level Tasks
+                    <select>
+                      <option>ALL</option>
+                      <option>EASY</option>
+                      <option>MEDIUM</option>
+                      <option>HARD</option>
+                    </select>
+                  </label>
+                <textarea placeholder="Enter task text"></textarea>
+                <input type="file" accept="image/png, image/jpeg">
+                <button class="create-task">Create</button>
+            </section>
+            <section class="container-for-all-users none">
+            </section>
          <footer class="footer">
             <button class="article-1">article-1</button>
             <button class="article-2">acrticle-2</button>

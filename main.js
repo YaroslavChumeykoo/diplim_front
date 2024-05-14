@@ -24,7 +24,7 @@ const containerAllUsers = document.querySelector('.container-for-all-users');
 
 
 
-const url = 'http://localhost:3001/'
+const url = 'https://api.t4.academy.dunice-testing.com/'
 let token = '';
 let role = '';
 let tasks = [];
